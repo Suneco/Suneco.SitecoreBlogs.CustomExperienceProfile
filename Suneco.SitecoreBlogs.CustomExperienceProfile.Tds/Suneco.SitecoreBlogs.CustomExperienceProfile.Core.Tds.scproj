@@ -34,6 +34,17 @@
     <EnableValidations>False</EnableValidations>
     <ValidationSettingsFilePath>.\Suneco.SitecoreBlogs.CustomExperienceProfile.Core.Tds_Debug.xml</ValidationSettingsFilePath>
     <SitecoreAccessGuid>8622eef6-9b69-4a9c-84d7-659bbf5d3f07</SitecoreAccessGuid>
+    <PackageName>Suneco.SitecoreBlogs.CustomExperienceProfile.Core.Tds</PackageName>
+    <GeneratePackage>True</GeneratePackage>
+    <SeperateFilesAndItems>False</SeperateFilesAndItems>
+    <PackageExcludeCode>False</PackageExcludeCode>
+    <AddDateTimeToPackageName>True</AddDateTimeToPackageName>
+    <PackageAuthor>S. Bouwmeester</PackageAuthor>
+    <PackagePublisher>S. Bouwmeester</PackagePublisher>
+    <PackageReadme>
+    </PackageReadme>
+    <PackageVersion>1.0.0.0</PackageVersion>
+    <SitecoreAssemblyPath>D:\hosting\sc81rev151207\Website\bin</SitecoreAssemblyPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
     <DebugSymbols>false</DebugSymbols>
