@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Suneco.SitecoreBlogs.CustomExperienceProfile", "Suneco.SitecoreBlogs.CustomExperienceProfile\Suneco.SitecoreBlogs.CustomExperienceProfile.csproj", "{9EAE6913-AA74-459D-8E34-A32381460587}"
+EndProject
+Project("{CAA73BB0-EF22-4D79-A57E-DF67B3BA9C80}") = "Suneco.SitecoreBlogs.CustomExperienceProfile.Core.Tds", "Suneco.SitecoreBlogs.CustomExperienceProfile.Tds\Suneco.SitecoreBlogs.CustomExperienceProfile.Core.Tds.scproj", "{3C01F2C1-7CFA-46BC-997D-83BDFA4814F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EAE6913-AA74-459D-8E34-A32381460587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EAE6913-AA74-459D-8E34-A32381460587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EAE6913-AA74-459D-8E34-A32381460587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EAE6913-AA74-459D-8E34-A32381460587}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C01F2C1-7CFA-46BC-997D-83BDFA4814F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C01F2C1-7CFA-46BC-997D-83BDFA4814F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C01F2C1-7CFA-46BC-997D-83BDFA4814F9}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3C01F2C1-7CFA-46BC-997D-83BDFA4814F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C01F2C1-7CFA-46BC-997D-83BDFA4814F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C01F2C1-7CFA-46BC-997D-83BDFA4814F9}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

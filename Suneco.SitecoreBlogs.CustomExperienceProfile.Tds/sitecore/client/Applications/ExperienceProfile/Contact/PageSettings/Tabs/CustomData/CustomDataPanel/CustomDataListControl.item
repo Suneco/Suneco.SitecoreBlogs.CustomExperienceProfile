@@ -1,0 +1,44 @@
+----item----
+version: 1
+id: {708E1C20-572F-4368-A026-E7034C2660CC}
+database: core
+path: /sitecore/client/Applications/ExperienceProfile/Contact/PageSettings/Tabs/CustomData/CustomDataPanel/CustomDataListControl
+parent: {8270A7FA-6F2D-4143-B5E0-8DBD6BB32A1B}
+name: CustomDataListControl
+master: {00000000-0000-0000-0000-000000000000}
+template: {871931B2-7ECE-4B24-B7D4-3474EB7EAA13}
+templatekey: ListControl
+
+----version----
+language: en
+version: 1
+revision: fb7e7dfb-b913-437c-a444-f938a07d6eb4
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 16
+
+20160120T135445Z
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+fb7e7dfb-b913-437c-a444-f938a07d6eb4
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 16
+
+20160120T135456Z
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
