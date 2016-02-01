@@ -4,7 +4,7 @@
 ],
   function (sc, providerHelper, cintelUtil, ExternalDataApiVersion) {
       var intelPath = "/intel";
-      var customDataTable = "custom-data";
+      var ordersTable = "get-orders-data";
 
       var app = sc.Definitions.App.extend({
           initialized: function () {
@@ -12,12 +12,12 @@
 
               var intelBaseUrl = sc.Contact.baseUrl + intelPath + "/";
 
-              this.setupCustomData(intelBaseUrl, customDataTable);
+              this.setupOrders(intelBaseUrl, ordersTable);
           },
 
-          setupCustomData: function (intelBaseUrl, table) {
-              providerHelper.initProvider(this.CustomDataProvider, table, intelBaseUrl + table, this.CustomDataMessageBar);
-              providerHelper.getListData(this.CustomDataProvider);
+          setupOrders: function (intelBaseUrl, table) {
+              providerHelper.initProvider(this.OrdersProvider, table, intelBaseUrl + table, this.CustomDataMessageBar);
+              providerHelper.getListData(this.OrdersProvider);
           },
       });
       return app;

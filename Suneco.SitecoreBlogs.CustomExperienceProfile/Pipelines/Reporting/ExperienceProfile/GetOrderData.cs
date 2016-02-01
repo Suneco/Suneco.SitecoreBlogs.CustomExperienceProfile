@@ -7,13 +7,14 @@
     using Sitecore.Cintel.Reporting;
     using Sitecore.Cintel.Reporting.Processors;
 
-    public class GetCustomData : ReportProcessorBase
+    public class GetOrderData : ReportProcessorBase
     {
         public enum CustomDataFields
         {
-            ContactId = 0,
-            Day = 1,
-            Color = 2
+            Number = 0,
+            Date = 1,
+            TotalExclTax = 2,
+            TotalInclTax = 3
         }
 
         public override void Process(ReportProcessorArgs args)
@@ -29,22 +30,24 @@
 
         private void InitializeDataTable(DataTable table)
         {
-            table.AddViewField<string>(CustomDataFields.ContactId.ToString());
-            table.AddViewField<string>(CustomDataFields.Day.ToString());
-            table.AddViewField<string>(CustomDataFields.Color.ToString());
+            table.AddViewField<long>(CustomDataFields.Number.ToString());
+            table.AddViewField<string>(CustomDataFields.Date.ToString());
+            table.AddViewField<decimal>(CustomDataFields.TotalExclTax.ToString());
+            table.AddViewField<decimal>(CustomDataFields.TotalInclTax.ToString());
         }
 
         private void PopulateData(DataTable table, Guid contactId)
         {
-            var userdata = UserService.GetUserData(contactId);
+            var orders = ShopService.GetOrders(contactId);
 
-            foreach (var customData in userdata)
+            foreach (var order in orders)
             {
                 var row = table.NewRow();
 
-                row.SetField(CustomDataFields.ContactId.ToString(), customData.ContactId);
-                row.SetField(CustomDataFields.Day.ToString(), customData.Day);
-                row.SetField(CustomDataFields.Color.ToString(), customData.Color);
+                row.SetField(CustomDataFields.Number.ToString(), order.Number);
+                row.SetField(CustomDataFields.Date.ToString(), order.OrderDate);
+                row.SetField(CustomDataFields.TotalExclTax.ToString(), order.TotalExclTax);
+                row.SetField(CustomDataFields.TotalInclTax.ToString(), order.TotalInclTax);
 
                 table.Rows.Add(row);
             }

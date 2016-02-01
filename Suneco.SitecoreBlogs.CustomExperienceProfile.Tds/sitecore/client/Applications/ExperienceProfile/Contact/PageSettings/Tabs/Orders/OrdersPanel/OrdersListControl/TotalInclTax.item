@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {B1B6D41D-D537-4897-8F8C-DC31DCBF4DDD}
+id: {86FE5682-3CE0-4EAA-8D6A-348D7FB2E469}
 database: core
-path: /sitecore/client/Applications/ExperienceProfile/Contact/PageSettings/Tabs/CustomData/CustomDataPanel/CustomDataListControl/ContactId
+path: /sitecore/client/Applications/ExperienceProfile/Contact/PageSettings/Tabs/Orders/OrdersPanel/OrdersListControl/TotalInclTax
 parent: {708E1C20-572F-4368-A026-E7034C2660CC}
-name: ContactId
+name: TotalInclTax
 master: {00000000-0000-0000-0000-000000000000}
 template: {D3CEFE6E-E51B-4A84-B92E-AAF8AA8E8DC8}
 templatekey: ColumnField
@@ -13,21 +13,28 @@ templatekey: ColumnField
 field: {E67F1B1F-3488-4CF4-80AE-BE285C918C2E}
 name: DataField
 key: datafield
-content-length: 9
+content-length: 5
 
-ContactId
+Color
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+200
 ----version----
 language: en
 version: 1
-revision: d33e9164-6963-4e40-884a-c5bccd8c4199
+revision: 93416f0c-74dc-427a-a644-39b7a038c6c0
 
 ----field----
 field: {2E9FD749-0F47-4397-8BA2-C56C65366BF0}
 name: HeaderText
 key: headertext
-content-length: 9
+content-length: 5
 
-ContactId
+Color
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -41,7 +48,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20160120T135613Z
+20160120T135631Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -55,14 +62,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-d33e9164-6963-4e40-884a-c5bccd8c4199
+93416f0c-74dc-427a-a644-39b7a038c6c0
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160120T145743Z
+20160129T145532Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

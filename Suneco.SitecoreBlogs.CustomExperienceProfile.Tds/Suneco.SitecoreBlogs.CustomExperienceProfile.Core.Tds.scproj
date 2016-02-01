@@ -90,31 +90,35 @@
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>NoChildSynchronization</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\client\Applications\ExperienceProfile\Contact\PageSettings\Tabs\CustomData.item">
+    <SitecoreItem Include="sitecore\client\Applications\ExperienceProfile\Contact\PageSettings\Tabs\Orders.item">
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\client\Applications\ExperienceProfile\Contact\PageSettings\Tabs\CustomData\CustomDataPanel.item">
+    <SitecoreItem Include="sitecore\client\Applications\ExperienceProfile\Contact\PageSettings\Tabs\Orders\OrdersPanel.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\client\Applications\ExperienceProfile\Contact\PageSettings\Tabs\CustomData\CustomDataPanel\CustomDataAccordion.item">
+    <SitecoreItem Include="sitecore\client\Applications\ExperienceProfile\Contact\PageSettings\Tabs\Orders\OrdersPanel\OrdersAccordion.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\client\Applications\ExperienceProfile\Contact\PageSettings\Tabs\CustomData\CustomDataPanel\CustomDataListControl.item">
+    <SitecoreItem Include="sitecore\client\Applications\ExperienceProfile\Contact\PageSettings\Tabs\Orders\OrdersPanel\OrdersListControl.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\client\Applications\ExperienceProfile\Contact\PageSettings\Tabs\CustomData\CustomDataPanel\CustomDataListControl\Color.item">
+    <SitecoreItem Include="sitecore\client\Applications\ExperienceProfile\Contact\PageSettings\Tabs\Orders\OrdersPanel\OrdersListControl\Number.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\client\Applications\ExperienceProfile\Contact\PageSettings\Tabs\CustomData\CustomDataPanel\CustomDataListControl\ContactId.item">
+    <SitecoreItem Include="sitecore\client\Applications\ExperienceProfile\Contact\PageSettings\Tabs\Orders\OrdersPanel\OrdersListControl\OrderDate.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\client\Applications\ExperienceProfile\Contact\PageSettings\Tabs\CustomData\CustomDataPanel\CustomDataListControl\Day.item">
+    <SitecoreItem Include="sitecore\client\Applications\ExperienceProfile\Contact\PageSettings\Tabs\Orders\OrdersPanel\OrdersListControl\TotalExclTax.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\client\Applications\ExperienceProfile\Contact\PageSettings\Tabs\Orders\OrdersPanel\OrdersListControl\TotalInclTax.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
