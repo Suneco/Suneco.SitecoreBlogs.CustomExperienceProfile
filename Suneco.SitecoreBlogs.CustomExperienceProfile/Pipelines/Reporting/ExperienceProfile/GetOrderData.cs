@@ -9,7 +9,7 @@
 
     public class GetOrderData : ReportProcessorBase
     {
-        public enum CustomDataFields
+        public enum OrderFields
         {
             Number = 0,
             Date = 1,
@@ -30,10 +30,10 @@
 
         private void InitializeDataTable(DataTable table)
         {
-            table.AddViewField<long>(CustomDataFields.Number.ToString());
-            table.AddViewField<string>(CustomDataFields.Date.ToString());
-            table.AddViewField<decimal>(CustomDataFields.TotalExclTax.ToString());
-            table.AddViewField<decimal>(CustomDataFields.TotalInclTax.ToString());
+            table.AddViewField<long>(OrderFields.Number.ToString());
+            table.AddViewField<string>(OrderFields.Date.ToString());
+            table.AddViewField<decimal>(OrderFields.TotalExclTax.ToString());
+            table.AddViewField<decimal>(OrderFields.TotalInclTax.ToString());
         }
 
         private void PopulateData(DataTable table, Guid contactId)
@@ -44,10 +44,10 @@
             {
                 var row = table.NewRow();
 
-                row.SetField(CustomDataFields.Number.ToString(), order.Number);
-                row.SetField(CustomDataFields.Date.ToString(), order.OrderDate);
-                row.SetField(CustomDataFields.TotalExclTax.ToString(), order.TotalExclTax);
-                row.SetField(CustomDataFields.TotalInclTax.ToString(), order.TotalInclTax);
+                row.SetField(OrderFields.Number.ToString(), order.Number);
+                row.SetField(OrderFields.Date.ToString(), order.OrderDate);
+                row.SetField(OrderFields.TotalExclTax.ToString(), order.TotalExclTax);
+                row.SetField(OrderFields.TotalInclTax.ToString(), order.TotalInclTax);
 
                 table.Rows.Add(row);
             }
