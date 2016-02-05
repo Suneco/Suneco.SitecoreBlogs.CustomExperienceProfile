@@ -69,6 +69,8 @@
   <ItemGroup>
     <Compile Include="Extensions\DataTableExtensions.cs" />
     <Compile Include="Models\Order.cs" />
+    <Compile Include="Models\OrderLine.cs" />
+    <Compile Include="Pipelines\Reporting\ExperienceProfile\GetOrderLinesData.cs" />
     <Compile Include="Pipelines\Reporting\ExperienceProfile\GetOrderData.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\ShopService.cs" />
@@ -76,6 +78,7 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="App_Config\Include\Solution\Solution.config" />
+    <Content Include="sitecore\suneco\ExperienceProfile\OrderDetail.js" />
     <Content Include="sitecore\suneco\ExperienceProfile\OrdersTab.js" />
   </ItemGroup>
   <PropertyGroup>
