@@ -10,6 +10,7 @@
           initialized: function () {
               $('.sc-progressindicator').first().show().hide();
 
+              // Register order detail app for Order|dialog
               sc.on("OrderDetailApp", function (subapp) {
                   orderDialogApp = subapp;
               }, this);
@@ -34,10 +35,8 @@
                           panel.off("change:isLoaded");
                           panel.set("isBusy", false);
 
-                          alert('test');
-
+                          // Open dialog and provide the order
                           orderDialogApp.open(orderDialogApp, order);
-
                       }, this);
                   }
               };
@@ -47,6 +46,8 @@
               sc.Order.subscribeOrderDialog(this.OrdersListControl, this.OrderDialogLoadOnDemandPanel, this.OrderDialogWindow);
           },
 
+
+          // Get orders from backend
           setupOrders: function (intelBaseUrl, table) {
               providerHelper.initProvider(this.OrdersProvider, table, intelBaseUrl + table, this.CustomDataMessageBar);
               providerHelper.getListData(this.OrdersProvider);

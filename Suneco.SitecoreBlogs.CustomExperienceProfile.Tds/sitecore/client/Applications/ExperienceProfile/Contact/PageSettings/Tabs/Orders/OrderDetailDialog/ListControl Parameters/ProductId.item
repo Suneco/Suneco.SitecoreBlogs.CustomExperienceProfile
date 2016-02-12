@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {B1B6D41D-D537-4897-8F8C-DC31DCBF4DDD}
+id: {9EF1B3AB-7515-4A6F-91E9-18BD77485CAC}
 database: core
-path: /sitecore/client/Applications/ExperienceProfile/Contact/PageSettings/Tabs/Orders/OrdersPanel/OrdersListControl/Number
-parent: {708E1C20-572F-4368-A026-E7034C2660CC}
-name: Number
+path: /sitecore/client/Applications/ExperienceProfile/Contact/PageSettings/Tabs/Orders/OrderDetailDialog/ListControl Parameters/ProductId
+parent: {43B25036-AD90-4EA1-A39D-F18184758D94}
+name: ProductId
 master: {00000000-0000-0000-0000-000000000000}
 template: {D3CEFE6E-E51B-4A84-B92E-AAF8AA8E8DC8}
 templatekey: ColumnField
@@ -13,21 +13,21 @@ templatekey: ColumnField
 field: {E67F1B1F-3488-4CF4-80AE-BE285C918C2E}
 name: DataField
 key: datafield
-content-length: 6
+content-length: 9
 
-Number
+ProductId
 ----version----
 language: en
 version: 1
-revision: 0d8101f6-e0f1-477d-beae-4a75c2259391
+revision: 67bf9793-e047-4c39-910b-26e5ad33883c
 
 ----field----
 field: {2E9FD749-0F47-4397-8BA2-C56C65366BF0}
 name: HeaderText
 key: headertext
-content-length: 6
+content-length: 10
 
-Number
+Product ID
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -41,7 +41,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20160120T135613Z
+20160212T085929Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -55,14 +55,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-0d8101f6-e0f1-477d-beae-4a75c2259391
+67bf9793-e047-4c39-910b-26e5ad33883c
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160129T160531Z
+20160212T085941Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

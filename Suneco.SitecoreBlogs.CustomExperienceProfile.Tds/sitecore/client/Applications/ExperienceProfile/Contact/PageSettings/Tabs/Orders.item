@@ -27,21 +27,21 @@ content-length: 3
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 1089
+content-length: 1253
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{759BEFD1-3323-404D-A243-E0ED81163C03}">
-    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=OrdersTabId&amp;IsVisible=1&amp;Text=OrdersTab" uid="{8E44BE66-31E9-4D12-BFD1-BF83371FBEBB}" />
+    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=OrdersTabId&amp;IsVisible=0&amp;Text=OrdersTab" uid="{8E44BE66-31E9-4D12-BFD1-BF83371FBEBB}" />
     <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=OrdersTabBorder" uid="{4F3E9D93-2085-460D-8148-60D0DEF925CA}" />
     <r id="{FD97BD6A-2C46-4EB9-9F1F-7A2D7249DCC5}" par="Database=core&amp;Id=OrdersLoadOnDemandPanel&amp;ItemId=%7b8270A7FA-6F2D-4143-B5E0-8DBD6BB32A1B%7d" ph="OrdersTabBorder.Content" uid="{E6E046BB-473B-4A91-8719-8F330A3D7E5C}" />
-    <r id="{F517C5E4-9A53-46C3-B922-5B44E6DAAA48}" par="Id=OrdersIndicatorImage" ph="OrdersTabBorder.Content" uid="{1DD8B161-7824-4745-85E5-32462DE7BED8}" />
-    <r ds="{88134D50-FA78-406D-8C52-8286EB12BB25}" id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=OrdersTabProgressIndicator&amp;AutoShowTimeout=1000&amp;Tooltip=OrdersTabBorder.Content&amp;TargetControl=OrdersTabBorder" ph="OrdersTabBorder.Content" uid="{F04ABAC1-6ECF-40D1-91FA-7898C5CD730C}" />
+    <r id="{F517C5E4-9A53-46C3-B922-5B44E6DAAA48}" par="Id=OrdersIndicatorImage&amp;IsVisible=%7bBinding+OrdersLoadOnDemandPanel.isLoaded%2c+Converter%3dNot%7d&amp;Width=60px&amp;Height=60px" ph="OrdersTabBorder.Content" uid="{1DD8B161-7824-4745-85E5-32462DE7BED8}" />
+    <r ds="{88134D50-FA78-406D-8C52-8286EB12BB25}" id="{FE9723FC-56E4-4CA8-9C64-CB34F29462A5}" par="Id=OrdersProgressIndicator&amp;IsBusy=%7bBinding+OrdersLoadOnDemandPanel.IsBusy%7d&amp;AutoShowTimeout=1000&amp;Tooltip=OrdersTabBorder.Content&amp;TargetControl=OrdersTabBorder" ph="OrdersTabBorder.Content" uid="{F04ABAC1-6ECF-40D1-91FA-7898C5CD730C}" />
   </d>
 </r>
 ----version----
 language: en
 version: 1
-revision: 2a18b286-272d-4dd9-8385-9f68095ef4e3
+revision: b124f980-f57b-4127-9f98-88fd81360dc8
 
 ----field----
 field: {AEA872FB-AA91-4D1A-B877-3CA6FBBB4FD4}
@@ -70,14 +70,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-2a18b286-272d-4dd9-8385-9f68095ef4e3
+b124f980-f57b-4127-9f98-88fd81360dc8
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160129T153550Z
+20160129T155444Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

@@ -52,10 +52,10 @@
             {
                 var row = table.NewRow();
 
-                row.SetField(OrderLineFields.ProductId.ToString(), orderline.TotalInclTax);
-                row.SetField(OrderLineFields.Product.ToString(), orderline.TotalInclTax);
-                row.SetField(OrderLineFields.Quantity.ToString(), orderline.TotalInclTax);
-                row.SetField(OrderLineFields.TotalExclTax.ToString(), orderline.TotalInclTax);
+                row.SetField(OrderLineFields.ProductId.ToString(), orderline.ProductId);
+                row.SetField(OrderLineFields.Product.ToString(), orderline.Product);
+                row.SetField(OrderLineFields.Quantity.ToString(), orderline.Quantity);
+                row.SetField(OrderLineFields.TotalExclTax.ToString(), orderline.TotalExclTax);
                 row.SetField(OrderLineFields.TotalInclTax.ToString(), orderline.TotalInclTax);
 
                 table.Rows.Add(row);

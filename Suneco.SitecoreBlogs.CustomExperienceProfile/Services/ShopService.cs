@@ -15,17 +15,17 @@
                 {
                     Lines = new List<OrderLine>()
                     {
-                        new OrderLine(1, "ProductId", 1, 100, 110),
-                        new OrderLine(2, "ProductId", 2, 400, 440),
+                        new OrderLine(1, "Product 1", 1, 100, 110),
+                        new OrderLine(2, "Product 2", 2, 400, 440),
                     }
                 });
             data.Add(new Order(20160101002, DateTime.Now)
             {
                 Lines = new List<OrderLine>()
                     {
-                        new OrderLine(1, "ProductId", 2, 200, 220),
-                        new OrderLine(2, "ProductId", 2, 400, 440),
-                        new OrderLine(3, "ProductId", 3, 600, 660),
+                        new OrderLine(1, "Product 1", 2, 200, 220),
+                        new OrderLine(2, "Product 2", 2, 400, 440),
+                        new OrderLine(3, "Product 3", 3, 600, 660),
                     }
             });
 

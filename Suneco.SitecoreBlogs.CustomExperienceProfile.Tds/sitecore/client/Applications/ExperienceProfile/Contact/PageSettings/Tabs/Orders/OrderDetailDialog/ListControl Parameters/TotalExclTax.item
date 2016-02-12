@@ -1,10 +1,10 @@
 ----item----
 version: 1
-id: {A19BA81F-D1AD-4C86-8FF1-E8648CD7DCDB}
+id: {B2AC4148-93A0-4277-8A64-0A9859E23B5B}
 database: core
-path: /sitecore/client/Applications/ExperienceProfile/Contact/PageSettings/Tabs/Orders/OrdersPanel/OrdersListControl/OrderDate
-parent: {708E1C20-572F-4368-A026-E7034C2660CC}
-name: OrderDate
+path: /sitecore/client/Applications/ExperienceProfile/Contact/PageSettings/Tabs/Orders/OrderDetailDialog/ListControl Parameters/TotalExclTax
+parent: {43B25036-AD90-4EA1-A39D-F18184758D94}
+name: TotalExclTax
 master: {00000000-0000-0000-0000-000000000000}
 template: {D3CEFE6E-E51B-4A84-B92E-AAF8AA8E8DC8}
 templatekey: ColumnField
@@ -13,21 +13,42 @@ templatekey: ColumnField
 field: {E67F1B1F-3488-4CF4-80AE-BE285C918C2E}
 name: DataField
 key: datafield
-content-length: 9
+content-length: 12
 
-OrderDate
+TotalExclTax
+----field----
+field: {876D7F97-DCFF-4A17-B1CC-7D127A273489}
+name: ContentAlignment
+key: contentalignment
+content-length: 38
+
+{07A8B1E1-D779-4CF2-81FC-0768ABF97CDC}
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+200
 ----version----
 language: en
 version: 1
-revision: 94ed8921-92a7-4490-bb26-6dbf6dced079
+revision: 15e6da8a-156b-48ef-8cb1-45f4d096095f
 
 ----field----
 field: {2E9FD749-0F47-4397-8BA2-C56C65366BF0}
 name: HeaderText
 key: headertext
-content-length: 4
+content-length: 14
 
-Date
+Total excl tax
+----field----
+field: {7AD5458F-19C3-4173-AD67-3BFAF7CD3C7F}
+name: HeaderAlignment
+key: headeralignment
+content-length: 38
+
+{07A8B1E1-D779-4CF2-81FC-0768ABF97CDC}
 ----field----
 field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
 name: __Owner
@@ -41,7 +62,7 @@ name: __Created
 key: __created
 content-length: 16
 
-20160120T135622Z
+20160212T094729Z
 ----field----
 field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
 name: __Created by
@@ -55,14 +76,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-94ed8921-92a7-4490-bb26-6dbf6dced079
+15e6da8a-156b-48ef-8cb1-45f4d096095f
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160129T145607Z
+20160212T101134Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

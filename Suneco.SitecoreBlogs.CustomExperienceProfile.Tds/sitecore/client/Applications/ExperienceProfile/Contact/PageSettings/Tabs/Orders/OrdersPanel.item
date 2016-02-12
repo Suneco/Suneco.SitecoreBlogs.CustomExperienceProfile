@@ -20,12 +20,13 @@ OrdersPanel
 field: {F1A1FE9E-A60C-4DDB-A3A0-BB5B29FE732E}
 name: __Renderings
 key: __renderings
-content-length: 1539
+content-length: 1805
 
 <r>
   <d id="{FE5D7FDF-89C0-4D99-9AA3-B5FBD009C9F3}" l="{759BEFD1-3323-404D-A243-E0ED81163C03}">
-    <r id="{7717EB6C-9F90-4C58-826D-5E87722A0318}" par="Id=Text1&amp;Text=blabla" ph="Page.Body" uid="{7A0B87CB-66FD-41EE-A24A-41A1037EEA76}" />
     <r id="{CB83D434-31ED-4AC3-A280-CCE2B63F9743}" par="PageCodeScriptFileName=%2fsitecore%2fsuneco%2fExperienceProfile%2fOrdersTab.js" ph="Page.Body" uid="{9316A25C-F369-46E1-AA98-082E79903E66}" />
+    <r id="{FD97BD6A-2C46-4EB9-9F1F-7A2D7249DCC5}" par="Database=core&amp;Id=OrderDialogLoadOnDemandPanel&amp;ItemId=%7bDB7086B5-498F-4C05-8C88-696F7C23440F%7d" ph="OrderDialogWindow.Content" uid="{160234C5-9102-4A9C-8B59-79B60EB1C8E9}" />
+    <r id="{B60FB581-44D1-4372-86A2-D6E494F020E1}" par="HeaderText=Order+details&amp;Id=OrderDialogWindow" ph="Page.Body" uid="{D0FD97FC-7967-42F3-9DF3-6ED85DF062F6}" />
     <r id="{F6C9F461-FCAF-47DC-AA01-C8C64C2EFFB8}" par="Id=OrdersPanelBorder&amp;PaddingType=Top&amp;UsePadding=1" ph="Page.Body" uid="{B305F4AD-202E-4B3C-BF55-77A6187CC1F0}" />
     <r id="{910155C7-3881-4A56-90FB-D126490EDE55}" par="Id=OrdersMessageBar" ph="Page.Body" uid="{2A52D613-F3C9-41A0-B978-64B8BD24982A}" />
     <r id="{A91523CD-6E56-4F08-8B21-C39018E0134A}" par="Id=OrdersProvider" ph="OrdersPanelBorder.Content" uid="{5478B336-6678-41D0-AEF4-8CE9D52129A0}" />
@@ -36,7 +37,7 @@ content-length: 1539
 ----version----
 language: en
 version: 1
-revision: 2898738f-f168-41a6-92d7-29b14b1ef609
+revision: 4480939b-d0ae-4862-9b56-978369aa5851
 
 ----field----
 field: {AEA872FB-AA91-4D1A-B877-3CA6FBBB4FD4}
@@ -58,14 +59,14 @@ name: __Revision
 key: __revision
 content-length: 36
 
-2898738f-f168-41a6-92d7-29b14b1ef609
+4480939b-d0ae-4862-9b56-978369aa5851
 ----field----
 field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
 name: __Updated
 key: __updated
 content-length: 16
 
-20160129T153916Z
+20160205T093325Z
 ----field----
 field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
 name: __Updated by

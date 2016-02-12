@@ -78,7 +78,7 @@
   <ItemGroup />
   <ItemGroup>
     <Content Include="App_Config\Include\Solution\Solution.config" />
-    <Content Include="sitecore\suneco\ExperienceProfile\OrderDetail.js" />
+    <Content Include="sitecore\suneco\ExperienceProfile\OrderDialogWindow.js" />
     <Content Include="sitecore\suneco\ExperienceProfile\OrdersTab.js" />
   </ItemGroup>
   <PropertyGroup>

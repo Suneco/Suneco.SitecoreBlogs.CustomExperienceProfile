@@ -38,7 +38,7 @@
     <GeneratePackage>True</GeneratePackage>
     <SeperateFilesAndItems>False</SeperateFilesAndItems>
     <PackageExcludeCode>False</PackageExcludeCode>
-    <AddDateTimeToPackageName>True</AddDateTimeToPackageName>
+    <AddDateTimeToPackageName>False</AddDateTimeToPackageName>
     <PackageAuthor>S. Bouwmeester</PackageAuthor>
     <PackagePublisher>S. Bouwmeester</PackagePublisher>
     <PackageReadme>
@@ -94,6 +94,34 @@
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
     </SitecoreItem>
+    <SitecoreItem Include="sitecore\client\Applications\ExperienceProfile\Contact\PageSettings\Tabs\Orders\OrderDetailDialog.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\client\Applications\ExperienceProfile\Contact\PageSettings\Tabs\Orders\OrderDetailDialog\ListControl Parameters.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\client\Applications\ExperienceProfile\Contact\PageSettings\Tabs\Orders\OrderDetailDialog\ListControl Parameters\Product.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\client\Applications\ExperienceProfile\Contact\PageSettings\Tabs\Orders\OrderDetailDialog\ListControl Parameters\ProductId.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\client\Applications\ExperienceProfile\Contact\PageSettings\Tabs\Orders\OrderDetailDialog\ListControl Parameters\Quantity.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\client\Applications\ExperienceProfile\Contact\PageSettings\Tabs\Orders\OrderDetailDialog\ListControl Parameters\TotalExclTax.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
+    <SitecoreItem Include="sitecore\client\Applications\ExperienceProfile\Contact\PageSettings\Tabs\Orders\OrderDetailDialog\ListControl Parameters\TotalInclTax.item">
+      <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
+      <ItemDeployment>AlwaysUpdate</ItemDeployment>
+    </SitecoreItem>
     <SitecoreItem Include="sitecore\client\Applications\ExperienceProfile\Contact\PageSettings\Tabs\Orders\OrdersPanel.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
@@ -106,11 +134,11 @@
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\client\Applications\ExperienceProfile\Contact\PageSettings\Tabs\Orders\OrdersPanel\OrdersListControl\Number.item">
+    <SitecoreItem Include="sitecore\client\Applications\ExperienceProfile\Contact\PageSettings\Tabs\Orders\OrdersPanel\OrdersListControl\Date.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
-    <SitecoreItem Include="sitecore\client\Applications\ExperienceProfile\Contact\PageSettings\Tabs\Orders\OrdersPanel\OrdersListControl\OrderDate.item">
+    <SitecoreItem Include="sitecore\client\Applications\ExperienceProfile\Contact\PageSettings\Tabs\Orders\OrdersPanel\OrdersListControl\Number.item">
       <ChildItemSynchronization>KeepAllChildrenSynchronized</ChildItemSynchronization>
       <ItemDeployment>AlwaysUpdate</ItemDeployment>
     </SitecoreItem>
