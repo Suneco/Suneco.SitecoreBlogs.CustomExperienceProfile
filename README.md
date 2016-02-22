@@ -1,6 +1,6 @@
 # Suneco.SitecoreBlogs.CustomExperienceProfile
 
-This project is added for a Blog of Suneco (see: www.suneco.nl). See for more information on the Suneco website.
+This project is added for a Blog of Suneco (see: https://www.suneco.nl/blogs/view-the-contacts-orders-in-the-sitecore-experience-profile-using-speak). See for more information on the Suneco website.
 Note that this project contains code examples which do not work out the box.
 
 Prerequisites:
